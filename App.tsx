@@ -28,7 +28,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App = () => {
+const ModuleA = () => {
   const [count, setCount] = useState(0)
 
   return (
@@ -62,4 +62,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default App;
+export default ModuleA;
